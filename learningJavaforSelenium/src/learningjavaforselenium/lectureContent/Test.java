@@ -1,4 +1,4 @@
-package learningjavaforselenium.LectureContent;
+package learningjavaforselenium.lectureContent;
 
 public class Test {
 
