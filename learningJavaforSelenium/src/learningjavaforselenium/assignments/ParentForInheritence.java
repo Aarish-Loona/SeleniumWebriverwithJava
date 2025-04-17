@@ -3,6 +3,7 @@ package learningjavaforselenium.assignments;
 import learningjavaforselenium.lectureContent.GrandParentForInheritence;
 
 public class ParentForInheritence extends GrandParentForInheritence {
+	public int VariablefromParent = 40;
 	
 	public void methodFromParent() 
 	{
@@ -10,6 +11,8 @@ public class ParentForInheritence extends GrandParentForInheritence {
 	}
 	public static void main(String[] args) {
 		ParentForInheritence object1 = new ParentForInheritence();
+		
+		System.out.println("Value of GrandParent Variable is = " +object1.VariablefromGrandParent);
 		
 		//Single level Inheritance
 		object1.methodFromParent();
