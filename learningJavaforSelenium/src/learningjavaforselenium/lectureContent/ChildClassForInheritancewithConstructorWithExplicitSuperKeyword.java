@@ -9,19 +9,19 @@ public class ChildClassForInheritancewithConstructorWithExplicitSuperKeyword ext
 	
 	public ChildClassForInheritancewithConstructorWithExplicitSuperKeyword(int a)
 	{
-		super(1);
+		super(1); //Here we are explicitly calling 'Child Class one Parameter Constructor' using super keyword with parameter.
 		System.out.println("Child Class one Parameter Constructor");
 	}
 	
 	public ChildClassForInheritancewithConstructorWithExplicitSuperKeyword(int a, int b)
 	{
-		super(1,2,3);
+		super(1,2,3); //Here we are explicitly calling 'Child Class three Parameter Constructor' using super keyword with parameter.
 		System.out.println("Child Class two Parameter Constructor");
 	}
 	
 	public ChildClassForInheritancewithConstructorWithExplicitSuperKeyword(int a, int b, int c)
 	{
-		super(1,2);
+		super(1,2); //Here we are explicitly calling 'Child Class two Parameter Constructor' using super keyword with parameter.
 		System.out.println("Child Class three Parameter Constructor");
 	}
 	
@@ -34,12 +34,6 @@ public class ChildClassForInheritancewithConstructorWithExplicitSuperKeyword ext
 		ChildClassForInheritancewithConstructorWithExplicitSuperKeyword object3 = new ChildClassForInheritancewithConstructorWithExplicitSuperKeyword(1,2);
 		System.out.println("-------------Object4---------------");
 		ChildClassForInheritancewithConstructorWithExplicitSuperKeyword object4 = new ChildClassForInheritancewithConstructorWithExplicitSuperKeyword(1,2,3);
-		
-		/*
-		 * Here in every case, Parent class default constructor is being called, because
-		 * by default 'super()' keyword is written in constructor, which calls default
-		 * Parent constructor everytime.
-		 */
 		
 	}
 
